@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(178, 223, 213);
+    border: 1px solid rgb(178, 223, 213);
+    border-radius: 2%;
+}
+h1 {
+    text-align: center;
+}
+
+.main input {
+    margin: 10%;
+    text-align: center;
+    color: black;
+    border-radius: 3%;
+    
+}
+
+.main button {
+    width: 5vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(191, 214, 209);
+    border: 1px solid aliceblue;
+    border-radius: 2%;
+}
+.infoL{
+    text-align: left;
+    margin-left: 5%;
+}
+.infoR{
+    text-align: left;
+    margin-right: 20%;
+}
